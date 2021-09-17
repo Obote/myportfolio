@@ -1,43 +1,23 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+## My portfolio mobile version
 
-> One paragraph statement about the project.
+This project is a mobile version of my portfolio. It will be continous project that will show what I am capable of doing a developer.
 
-![screenshot](./app_screenshot.png)
+Project day 4 of Microserve bootcamp, module 1
 
-Additional description about the project and its features.
+
+![screenshot](./app.png)
+
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
+- node
+- hmtl
+- css
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Live Demo Link](https://obote.github.io/myportfolio/)
 
 
 
@@ -45,15 +25,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Obote](https://github.com/Obote)
+- Twitter: [@Obote_denis](https://twitter.com/Obote_denis)
+- LinkedIn: [Obote Denis](https://www.linkedin.com/in/obote-denis-9859a2a3/)
 
 ## 🤝 Contributing
 
@@ -69,7 +43,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
