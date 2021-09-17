@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
 
+
   body {
   width: 375px;
 }
@@ -23,6 +24,14 @@ main {
   flex-direction: column;
   background-color: #191765;
   padding: 80px 24px;
+  background-image: url(./images/Icons/Ellipse\ 18.svg);
+  background-position-y: 40px;
+  background-position-x: -20px;
+  background-repeat: no-repeat;
+}
+
+.roboto {
+  font-family: Roboto, sans-serif;
 }
 
 .nav-menu {
@@ -30,7 +39,6 @@ main {
 }
 
 .logo a {
-  font-family: Roboto, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
@@ -53,7 +61,6 @@ main {
 }
 
 .profile-container h1 {
-  font-family: Roboto, sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -64,7 +71,6 @@ main {
 }
 
 .profile-container h2 {
-  font-family: Roboto, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -74,7 +80,6 @@ main {
 }
 
 p {
-  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
