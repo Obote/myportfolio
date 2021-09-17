@@ -1,109 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
 
-body {
-    width: 375px;
+  body {
+  width: 375px;
 }
+
 .profile-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 44px;
-    width: 375px;
-    left: 0;
-    top: 0;
-    background-color: #191765;
-    padding: 24px;
-    border-radius: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  width: 375px;
+  left: 0;
+  top: 0;
+  background-color: #191765;
+  padding: 24px;
+  border-radius: 0;
 }
 
 main {
-    width: 375px;
-    display: flex;
-    flex-direction: column;
-    background-color: #191765;
-    padding: 80px 24px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  background-color: #191765;
+  padding: 80px 24px;
 }
 
-
 .nav-menu {
-    cursor: pointer;
-  }
-  
-  .logo a {
-    font-family: Roboto, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: #fff;
-    padding-left: 24px;
-    padding-right: 24px;
-    text-decoration: none;
-  }
+  cursor: pointer;
+}
+
+.logo a {
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-decoration: none;
+}
 
 .profile-container {
-    display: flex;
-    height: 450px;
-    width: 327px;
-    left: 24px;
-    top: 120px;
-    border-radius: 0;
+  display: flex;
+  height: 450px;
+  width: 327px;
+  left: 24px;
+  top: 120px;
+  border-radius: 0;
 }
 
 .profile-container h1 {
-    font-family: Roboto, sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 72px;
-    letter-spacing: 0.3700000047683716px;
-    text-align: center;
-    color: #7d73fc;
-  }
-
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: center;
+  color: #7d73fc;
+}
 
 .profile-container h2 {
-    font-family: Roboto, sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 44px;
-    text-align: center;
-    color: #edecff;
-  }
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: center;
+  color: #edecff;
+}
 
-  p {
-    font-family: Roboto, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0;
-    text-align: center;
-    color: #c8c8d4;
-  }
-  
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #c8c8d4;
+}
+
 
 button {
-    background-color: #191765;
-    border: #191765;
-  }
-  
-  button:hover {
-    background-color: #e5e5e5;
-  }
-  
-  button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px #7d73fc;
-  }
-  
-  button:active {
-    background-color: #e5e5e5;
-    border-color: #acb7c3;
-    color: #acb7c3;
-  }
+  background-color: #191765;
+  border: #191765;
+}
 
-  
+button:hover {
+  background-color: #e5e5e5;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #7d73fc;
+}
+
+button:active {
+  background-color: #e5e5e5;
+  border-color: #acb7c3;
+  color: #acb7c3;
+}
+
