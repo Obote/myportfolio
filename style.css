@@ -27,9 +27,9 @@ main {
   flex-direction: column;
   align-items: center;
   background-color: #191765;
-  background-image: url(./images/Icons/eclipes.png);
+  background-image: url(./images/Icons/eclipes1.png);
   background-repeat: no-repeat;
-  background-position-x: -200px;
+  background-position-x: -20px;
   background-position-y: -40px;
 }
 
@@ -113,6 +113,10 @@ header a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-image: url(./images/Icons/eclipse2.svg);
+  background-repeat: no-repeat;
+  background-position-x: 200px;
+  background-position-y: 200px;
 }
 
 .skill-stack h3 {
@@ -179,6 +183,13 @@ li {
   letter-spacing: 0;
   text-align: left;
   color: #9490ff;
+}
+
+.bg1 {
+  background-image: url(./images/Icons/eclipse3.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 .experience-container > img {
@@ -273,4 +284,24 @@ li {
 .divider {
   border: 1px solid #646369;
   width: 327px;
+}
+
+.container {
+  display: grid;
+}
+
+.project-button :hover {
+  background-color: #e5e5e5;
+}
+
+.project-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #7d73fc;
+  color: #646369;
+}
+
+.project-button:active {
+  background-color: #e5e5e5;
+  border-color: #acb7c3;
+  color: #acb7c3;
 }
