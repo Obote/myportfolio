@@ -1,65 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-  body {
-  width: 375px;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  font-family: Roboto, sans-serif;
+  color: #c8cdd4;
 }
 
 .profile-menu {
+  position: relative;
+  width: 375px;
+  height: 92px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 44px;
-  width: 375px;
-  left: 0;
-  top: 0;
   background-color: #191765;
-  padding: 24px;
-  border-radius: 0;
 }
 
 main {
   width: 375px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #191765;
-  padding: 80px 24px;
-  background-image: url(./images/Icons/Ellipse\ 18.svg);
-  background-position-y: 40px;
-  background-position-x: -20px;
+  background-image: url(./images/Icons/eclipes1.png);
   background-repeat: no-repeat;
+  background-position-x: -20px;
+  background-position-y: -40px;
 }
 
-.roboto {
+header a {
   font-family: Roboto, sans-serif;
-}
-
-.nav-menu {
-  cursor: pointer;
-}
-
-.logo a {
-  font-size: 30px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
   color: #fff;
+  text-decoration: none;
   padding-left: 24px;
   padding-right: 24px;
-  text-decoration: none;
 }
 
-.profile-container {
-  display: flex;
-  height: 450px;
-  width: 327px;
-  left: 24px;
-  top: 120px;
-  border-radius: 0;
+.hamburger {
+  background-color: #191765;
+  border: #191765;
+  padding-right: 24px;
+}
+
+.hamburger :hover {
+  background-color: #e5e5e5;
+}
+
+.hamburger:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #7d73fc;
+}
+
+.hamburger:active {
+  background-color: #e5e5e5;
+  border-color: #acb7c3;
+  color: #acb7c3;
 }
 
 .profile-container h1 {
+  font-family: Roboto, sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -70,15 +80,18 @@ main {
 }
 
 .profile-container h2 {
+  font-family: Roboto, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
   line-height: 44px;
+  letter-spacing: 0;
   text-align: center;
   color: #edecff;
 }
 
-p {
+.profile-container p {
+  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -86,23 +99,208 @@ p {
   letter-spacing: 0;
   text-align: center;
   color: #c8c8d4;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 40px;
 }
 
-button {
-  background-color: #191765;
-  border: #191765;
+.skill-stack {
+  height: 462.1505432128906px;
+  width: 303px;
+  left: 12px;
+  top: 235px;
+  border-radius: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url(./images/Icons/eclipse2.svg);
+  background-repeat: no-repeat;
+  background-position-x: 200px;
+  background-position-y: 200px;
 }
 
-button:hover {
+.skill-stack h3 {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #9490ff;
+}
+
+li {
+  list-style: none;
+}
+
+.skill-stack li {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.social-media {
+  height: 104px;
+  width: 200px;
+  left: 87.5px;
+  top: 1092.1505126953125px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media-icon {
+  height: 40px;
+  width: 200px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 48px;
+}
+
+.experience-title {
+  align-self: start;
+  margin-left: 20px;
+  padding-top: 83.85px;
+}
+
+.experience-title h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #9490ff;
+}
+
+.bg1 {
+  background-image: url(./images/Icons/eclipse3.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.experience-container > img {
+  height: 236px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
+  padding-top: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.experience-container > h3 {
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-left: 24px;
+  color: #fff;
+}
+
+.experience-container p {
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.stack-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  width: 312px;
+  border-radius: 0;
+  padding-top: 24px;
+  align-items: center;
+}
+
+.stack-container li {
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.experience-container button {
+  height: 48px;
+  width: 89px;
+  left: 0;
+  top: 421px;
+  border-radius: 0;
+  background-color: #7d73fc;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  border: none;
+}
+
+.project-button {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #edecff;
+}
+
+.border-right {
+  border-right: 1px solid white;
+}
+
+.padding-right {
+  padding-right: 20px;
+}
+
+.divider {
+  border: 1px solid #646369;
+  width: 327px;
+}
+
+.container {
+  display: grid;
+}
+
+.project-button :hover {
   background-color: #e5e5e5;
 }
 
-button:focus {
+.project-button:focus {
   outline: none;
   box-shadow: 0 0 0 3px #7d73fc;
+  color: #646369;
 }
 
-button:active {
+.project-button:active {
   background-color: #e5e5e5;
   border-color: #acb7c3;
   color: #acb7c3;

@@ -19,6 +19,10 @@ Project day 4 of Microserve bootcamp, module 1
 
 [Live Demo Link](https://obote.github.io/myportfolio/)
 
+## Install
+
+Clone the project and run  it.
+
 
 
 ## Authors
