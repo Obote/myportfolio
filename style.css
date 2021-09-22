@@ -305,3 +305,81 @@ li {
   border-color: #acb7c3;
   color: #acb7c3;
 }
+
+
+form {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  list-style: none;
+  padding: 0;
+  margin-top: 2em;
+  color: #303036;
+  padding-left: 15px;
+}
+
+form > input {
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  border: none;
+}
+
+form > textarea {
+  width: 100%;
+  height: 148px;
+  margin-top: 2em;
+  box-sizing: border-box;
+  border: none;
+  color: #303036;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+form > button:hover {
+  background-color: #503458;
+}
+
+.form-container h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+  color: #9390ff;
+}
+
+.form-container p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+form > button {
+  height: 48px;
+  width: 89px;
+  left: 0;
+  top: 421px;
+  border-radius: 0;
+  background-color: #7d73fc;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  border: none;
+}
+
