@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+* {
+  font-family: Roboto, sans-serif;
+}
 
 body {
   display: flex;
@@ -34,7 +39,6 @@ main {
 }
 
 header a {
-  font-family: Roboto, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -69,7 +73,6 @@ header a {
 }
 
 .profile-container h1 {
-  font-family: Roboto, sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -80,7 +83,6 @@ header a {
 }
 
 .profile-container h2 {
-  font-family: Roboto, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -91,7 +93,6 @@ header a {
 }
 
 .profile-container p {
-  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -120,7 +121,6 @@ header a {
 }
 
 .skill-stack h3 {
-  font-family: Roboto, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -135,7 +135,6 @@ li {
 }
 
 .skill-stack li {
-  font-family: Roboto, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -175,7 +174,6 @@ li {
 }
 
 .experience-title h2 {
-  font-family: Roboto, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
@@ -204,7 +202,6 @@ li {
 }
 
 .experience-container > h3 {
-  font-family: Roboto, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
@@ -216,7 +213,6 @@ li {
 }
 
 .experience-container p {
-  font-family: Inter, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -239,7 +235,6 @@ li {
 }
 
 .stack-container li {
-  font-family: Inter, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -247,6 +242,19 @@ li {
   letter-spacing: 0;
   text-align: center;
   color: #fff;
+}
+
+form > button {
+  height: 48px;
+  width: 89px;
+  left: 0;
+  top: 421px;
+  border-radius: 0;
+  background-color: #7d73fc;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  border: none;
 }
 
 .experience-container button {
@@ -263,7 +271,6 @@ li {
 }
 
 .project-button {
-  font-family: Roboto, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -304,4 +311,91 @@ li {
   background-color: #e5e5e5;
   border-color: #acb7c3;
   color: #acb7c3;
+}
+
+form {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  list-style: none;
+  padding: 0;
+  margin-top: 2em;
+  color: #303036;
+  padding-left: 15px;
+}
+
+form > input {
+  width: 100%;
+  height: 48px;
+  box-sizing: border-box;
+  border: none;
+}
+
+form > textarea {
+  width: 100%;
+  height: 148px;
+  margin-top: 2em;
+  box-sizing: border-box;
+  border: none;
+  color: #303036;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+form > button:hover {
+  background-color: #503458;
+}
+
+.form-container h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  text-align: center;
+  color: #9390ff;
+}
+
+.form-container p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.footer-section {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #191765;
+}
+
+.supporting-item-container:nth-child(2) {
+  margin: 25px 0 15px 0;
+}
+
+.footer-email {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
 }

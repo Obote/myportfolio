@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## My portfolio mobile version
+## My portfolio contact form
 
 This project is a mobile version of my portfolio. It will be continous project that will show what I am capable of doing a developer.
 
@@ -27,11 +27,17 @@ Clone the project and run  it.
 
 ## Authors
 
-👤 **Author1**
+👤 **Denis Obote**
 
 - GitHub: [@Obote](https://github.com/Obote)
 - Twitter: [@Obote_denis](https://twitter.com/Obote_denis)
 - LinkedIn: [Obote Denis](https://www.linkedin.com/in/obote-denis-9859a2a3/)
+
+
+👤 **Rafeal Elchart**
+
+- GitHub: [@rafaelechart](https://github.com/rafaelechart)
+- Twitter: [@rafaechart](https://twitter.com/rafaechart)
 
 ## 🤝 Contributing
 
