@@ -249,6 +249,19 @@ li {
   color: #fff;
 }
 
+form > button {
+  height: 48px;
+  width: 89px;
+  left: 0;
+  top: 421px;
+  border-radius: 0;
+  background-color: #7d73fc;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  border: none;
+}
+
 .experience-container button {
   height: 48px;
   width: 89px;
@@ -305,7 +318,6 @@ li {
   border-color: #acb7c3;
   color: #acb7c3;
 }
-
 
 form {
   padding-left: 24px;
@@ -370,16 +382,27 @@ form > button:hover {
   padding-right: 24px;
 }
 
-form > button {
-  height: 48px;
-  width: 89px;
-  left: 0;
-  top: 421px;
-  border-radius: 0;
-  background-color: #7d73fc;
-  margin-top: 24px;
-  margin-left: 24px;
-  margin-bottom: 24px;
-  border: none;
+.footer-section {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #191765;
 }
 
+.supporting-item-container:nth-child(2) {
+  margin: 25px 0 15px 0;
+}
+
+.footer-email {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+}
