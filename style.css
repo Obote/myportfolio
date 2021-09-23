@@ -408,7 +408,7 @@ form > button:hover {
   height: 70px;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1100px) {
   body,
   header,
   main,
@@ -438,6 +438,7 @@ form > button:hover {
   body {
     width: auto;
     height: auto;
+    margin: 0;
   }
 
   .profile-menu .logo {
@@ -525,7 +526,9 @@ form > button:hover {
   }
 
   .form-container {
-    margin: 0 378px;
+    margin-right:  378px;
+    margin-left: 378px;
+    margin-top: 114px;
   }
 
   input {
