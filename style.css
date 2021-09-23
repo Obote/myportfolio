@@ -460,3 +460,15 @@ form > button:hover {
     width: 448px;
   }
 
+
+  .skill-stack {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: static;
+    width: auto;
+    left: 1px;
+    height: auto;
+  }
+
+}
