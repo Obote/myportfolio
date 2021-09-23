@@ -5,7 +5,11 @@
   font-family: Roboto, sans-serif;
 }
 
-.menu-items {
+.menu-items,
+.msg-icon,
+.deskH,
+#fname,
+#lname {
   display: none;
 }
 
@@ -415,12 +419,15 @@ form > button:hover {
   }
 
   .hamburger,
-  .bg1 {
+  .bg1,
+  #name {
     display: none;
     background-image: none;
   }
 
-  .menu-items {
+  .menu-items,
+  #fname,
+  #lname {
     display: flex;
   }
 
@@ -437,6 +444,11 @@ form > button:hover {
     margin-left: 154px;
   }
 
+  .msg-icon {
+    display: flex;
+    background-color: #191765;
+  }
+
   .profile-menu .msg-icon {
     margin-right: 156px;
   }
@@ -445,10 +457,6 @@ form > button:hover {
     display: flex;
     justify-content: space-between;
     margin-right: -650px;
-  }
-
-  .msg-icon {
-    background-color: #191765;
   }
 
   .profile-title p {
@@ -460,7 +468,6 @@ form > button:hover {
     width: 448px;
   }
 
-
   .skill-stack {
     display: flex;
     flex-direction: row;
@@ -470,7 +477,6 @@ form > button:hover {
     left: 1px;
     height: auto;
   }
-
 
   .experience-title h2 {
     font-style: normal;
@@ -504,5 +510,38 @@ form > button:hover {
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
+  }
+
+  .mobH {
+    display: none;
+  }
+
+  .deskH {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 24px;
+  }
+
+  .form-container {
+    margin: 0 378px;
+  }
+
+  input {
+    height: 48px;
+    width: 329px;
+  }
+
+  #fname {
+    margin-right: 12px;
+  }
+
+  #lname {
+    margin-left: 12px;
+  }
+
+  .form-box {
+    display: flex;
   }
 }
