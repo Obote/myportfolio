@@ -450,3 +450,13 @@ form > button:hover {
   .msg-icon {
     background-color: #191765;
   }
+
+  .profile-title p {
+    padding-left: 496.5px;
+    padding-right: 496.5px;
+  }
+
+  .divider {
+    width: 448px;
+  }
+
