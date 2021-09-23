@@ -5,6 +5,10 @@
   font-family: Roboto, sans-serif;
 }
 
+.menu-items {
+  display: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -399,3 +403,50 @@ form > button:hover {
   align-items: center;
   height: 70px;
 }
+
+@media screen and (min-width: 780px) {
+  body,
+  header,
+  main,
+  footer,
+  .profile-menu,
+  .footer-section {
+    width: 1440px;
+  }
+
+  .hamburger,
+  .bg1 {
+    display: none;
+    background-image: none;
+  }
+
+  .menu-items {
+    display: flex;
+  }
+
+  .menu-items > li {
+    padding-left: 32px;
+  }
+
+  body {
+    width: auto;
+    height: auto;
+  }
+
+  .profile-menu .logo {
+    margin-left: 154px;
+  }
+
+  .profile-menu .msg-icon {
+    margin-right: 156px;
+  }
+
+  .profile-menu > .menu-items {
+    display: flex;
+    justify-content: space-between;
+    margin-right: -650px;
+  }
+
+  .msg-icon {
+    background-color: #191765;
+  }
