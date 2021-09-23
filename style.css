@@ -544,4 +544,10 @@ form > button:hover {
   .form-box {
     display: flex;
   }
+
+  .bg2,
+  .bg4 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
