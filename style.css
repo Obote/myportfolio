@@ -477,6 +477,11 @@ form > button:hover {
 
   .divider {
     width: 448px;
+    border: 1px solid #646369;
+  }
+
+  .container .divider {
+    width: 1156px;
   }
 
   .skill-stack {
@@ -565,10 +570,9 @@ form > button:hover {
     margin-top: 114px;
   }
 
-  .form-box {
-    display: flex;
+  .footer-section .divider {
+    width: 1440px;
   }
-
   .bg2,
   .bg4 {
     display: flex;
