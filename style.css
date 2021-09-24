@@ -44,6 +44,8 @@ main {
   background-repeat: no-repeat;
   background-position-x: -20px;
   background-position-y: -40px;
+  margin: 0;
+  padding: 0;
 }
 
 header a {
@@ -122,10 +124,6 @@ header a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-image: url(./images/Icons/eclipse2.svg);
-  background-repeat: no-repeat;
-  background-position-x: 200px;
-  background-position-y: 200px;
 }
 
 .skill-stack h3 {
@@ -411,16 +409,16 @@ form > button:hover {
 @media screen and (min-width: 1100px) {
   body,
   header,
-  main,
   footer,
+  main,
   .profile-menu,
   .footer-section {
     width: 1440px;
+    background-image: none;
   }
 
   .hamburger,
-  .bg1,
-  #name {
+  .bg1 {
     display: none;
     background-image: none;
   }
@@ -439,6 +437,12 @@ form > button:hover {
     width: auto;
     height: auto;
     margin: 0;
+  }
+
+  .profile-container {
+    background: url(./images/Icons/circle1.svg);
+    background-repeat: no-repeat;
+    background-position-x: 200px;
   }
 
   .profile-menu .logo {
@@ -465,6 +469,12 @@ form > button:hover {
     padding-right: 496.5px;
   }
 
+  .container {
+    background: url(./images/Icons/circle2.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
   .divider {
     width: 448px;
   }
@@ -487,6 +497,29 @@ form > button:hover {
     margin-left: 142px;
   }
 
+  .bg1 {
+    background: url(./images/Icons/Ellipse1.svg);
+    background-repeat: no-repeat;
+  }
+
+  .bg2 {
+    background: url(./images/Icons/Ellipse2.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+
+  .bg3 {
+    background: url(./images/Icons/Ellipse3.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+  }
+
+  .bg4 {
+    background: url(./images/Icons/Ellipse4.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
   .experience-title br {
     display: none;
   }
@@ -497,7 +530,8 @@ form > button:hover {
   }
 
   .experience-container {
-    margin: 0 142px;
+    /* margin: 0 142px; */
+    padding: 0 142px;
     display: flex;
   }
 
@@ -526,22 +560,9 @@ form > button:hover {
   }
 
   .form-container {
-    margin-right:  378px;
+    margin-right: 378px;
     margin-left: 378px;
     margin-top: 114px;
-  }
-
-  input {
-    height: 48px;
-    width: 329px;
-  }
-
-  #fname {
-    margin-right: 12px;
-  }
-
-  #lname {
-    margin-left: 12px;
   }
 
   .form-box {
