@@ -5,6 +5,14 @@
   font-family: Roboto, sans-serif;
 }
 
+.menu-items,
+.msg-icon,
+.deskH,
+#fname,
+#lname {
+  display: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -36,6 +44,8 @@ main {
   background-repeat: no-repeat;
   background-position-x: -20px;
   background-position-y: -40px;
+  margin: 0;
+  padding: 0;
 }
 
 header a {
@@ -114,10 +124,6 @@ header a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-image: url(./images/Icons/eclipse2.svg);
-  background-repeat: no-repeat;
-  background-position-x: 200px;
-  background-position-y: 200px;
 }
 
 .skill-stack h3 {
@@ -398,4 +404,179 @@ form > button:hover {
   flex-direction: column;
   align-items: center;
   height: 70px;
+}
+
+@media screen and (min-width: 1100px) {
+  body,
+  header,
+  footer,
+  main,
+  .profile-menu,
+  .footer-section {
+    width: 1440px;
+    background-image: none;
+  }
+
+  .hamburger,
+  .bg1 {
+    display: none;
+    background-image: none;
+  }
+
+  .menu-items,
+  #fname,
+  #lname {
+    display: flex;
+  }
+
+  .menu-items > li {
+    padding-left: 32px;
+  }
+
+  body {
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+
+  .profile-container {
+    background: url(./images/Icons/circle1.svg);
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+  }
+
+  .profile-menu .logo {
+    margin-left: 154px;
+  }
+
+  .msg-icon {
+    display: flex;
+    background-color: #191765;
+  }
+
+  .profile-menu .msg-icon {
+    margin-right: 156px;
+  }
+
+  .profile-menu > .menu-items {
+    display: flex;
+    justify-content: space-between;
+    margin-right: -650px;
+  }
+
+  .profile-title p {
+    padding-left: 496.5px;
+    padding-right: 496.5px;
+  }
+
+  .container {
+    background: url(./images/Icons/circle2.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  .divider {
+    width: 448px;
+    border: 1px solid #646369;
+  }
+
+  .container .divider {
+    width: 1156px;
+  }
+
+  .skill-stack {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: static;
+    width: auto;
+    left: 1px;
+    height: auto;
+  }
+
+  .experience-title h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 114px;
+    margin-left: 142px;
+  }
+
+  .bg1 {
+    background: url(./images/Icons/Ellipse1.svg);
+    background-repeat: no-repeat;
+  }
+
+  .bg2 {
+    background: url(./images/Icons/Ellipse2.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+
+  .bg3 {
+    background: url(./images/Icons/Ellipse3.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+  }
+
+  .bg4 {
+    background: url(./images/Icons/Ellipse4.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  .experience-title br {
+    display: none;
+  }
+
+  .experience-container img {
+    width: 684px;
+    height: 448px;
+  }
+
+  .experience-container {
+    /* margin: 0 142px; */
+    padding: 0 142px;
+    display: flex;
+  }
+
+  .sec-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec-wrap h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .mobH {
+    display: none;
+  }
+
+  .deskH {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 24px;
+  }
+
+  .form-container {
+    margin-right: 378px;
+    margin-left: 378px;
+    margin-top: 114px;
+  }
+
+  .footer-section .divider {
+    width: 1440px;
+  }
+
+  .bg2,
+  .bg4 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
