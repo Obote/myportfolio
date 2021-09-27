@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## My portfolio contact form
+## My portfolio Deplotment
 
-This project is a mobile version of my portfolio. It will be continous project that will show what I am capable of doing a developer.
+This project is application deloyment. It will be continous project that will show what I am capable of doing a developer.
 
-Project day 4 of Microserve bootcamp, module 1
+Project day 1 of week 3 in microverse bootcamp
 
 
 ![screenshot](./app.png)
@@ -12,7 +12,7 @@ Project day 4 of Microserve bootcamp, module 1
 
 ## Built With
 
-- node
+\
 - hmtl
 - css
 ## Live Demo
@@ -33,11 +33,6 @@ Clone the project and run  it.
 - Twitter: [@Obote_denis](https://twitter.com/Obote_denis)
 - LinkedIn: [Obote Denis](https://www.linkedin.com/in/obote-denis-9859a2a3/)
 
-
-👤 **Rafeal Elchart**
-
-- GitHub: [@rafaelechart](https://github.com/rafaelechart)
-- Twitter: [@rafaechart](https://twitter.com/rafaechart)
 
 ## 🤝 Contributing
 
