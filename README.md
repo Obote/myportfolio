@@ -12,7 +12,6 @@ Project day 1 of week 3 in microverse bootcamp
 
 ## Built With
 
-\
 - hmtl
 - css
 ## Live Demo
