@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
 
 * {
   font-family: Roboto, sans-serif;
@@ -57,8 +57,8 @@ header a {
   text-align: center;
   color: #fff;
   text-decoration: none;
-  padding-left: 24px;
-  padding-right: 24px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .hamburger {
@@ -158,6 +158,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 83.85px;
 }
 
 .social-media-icon {
@@ -176,7 +177,6 @@ li {
 .experience-title {
   align-self: start;
   margin-left: 20px;
-  padding-top: 83.85px;
 }
 
 .experience-title h2 {
@@ -286,6 +286,23 @@ form > button {
   color: #edecff;
 }
 
+.project-button :enabled {
+  background-color: #7d73fc;
+}
+
+.project-button:visited {
+  background-color: #5e42d7;
+}
+
+.project-button:hover {
+  background-color: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.project-button:disabled {
+  background-color: #2a2b33;
+}
+
 .border-right {
   border-right: 1px solid white;
 }
@@ -301,22 +318,6 @@ form > button {
 
 .container {
   display: grid;
-}
-
-.project-button :hover {
-  background-color: #e5e5e5;
-}
-
-.project-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px #7d73fc;
-  color: #646369;
-}
-
-.project-button:active {
-  background-color: #e5e5e5;
-  border-color: #acb7c3;
-  color: #acb7c3;
 }
 
 form {
@@ -429,10 +430,6 @@ form > button:hover {
     display: flex;
   }
 
-  .menu-items > li {
-    padding-left: 32px;
-  }
-
   body {
     width: auto;
     height: auto;
@@ -461,7 +458,7 @@ form > button:hover {
   .profile-menu > .menu-items {
     display: flex;
     justify-content: space-between;
-    margin-right: -650px;
+    margin-right: -680px;
   }
 
   .profile-title p {
