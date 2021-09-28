@@ -286,6 +286,23 @@ form > button {
   color: #edecff;
 }
 
+.project-button :enabled {
+  background-color: #7d73fc;
+}
+
+.project-button:visited {
+  background-color: #5e42d7;
+}
+
+.project-button:hover {
+  background-color: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.project-button:disabled {
+  background-color: #2a2b33;
+}
+
 .border-right {
   border-right: 1px solid white;
 }
@@ -301,22 +318,6 @@ form > button {
 
 .container {
   display: grid;
-}
-
-.project-button :hover {
-  background-color: #e5e5e5;
-}
-
-.project-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px #7d73fc;
-  color: #646369;
-}
-
-.project-button:active {
-  background-color: #e5e5e5;
-  border-color: #acb7c3;
-  color: #acb7c3;
 }
 
 form {
