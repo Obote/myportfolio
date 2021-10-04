@@ -1,16 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
 
+:root {
+  --primary-color: #191765;
+}
+
 * {
   font-family: Roboto, sans-serif;
 }
 
-.menu-items,
 .msg-icon,
 .deskH,
 #fname,
 #lname {
   display: none;
+}
+
+.menu-items {
+  position: fixed;
+  top: 92px;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 100%;
+  left: calc(-100% - 40px);
+  transition: left 0.4s;
+}
+
+.menu-on {
+  left: 0;
 }
 
 body {
@@ -392,9 +409,14 @@ form > button:hover {
   height: 70px;
 }
 
-.fa-bars {
-  color: #ffffff;
+.fa-bars,
+.fa-times {
+  color: #fff;
   font-size: 25px;
+}
+
+.hide {
+  display: none;
 }
 
 @media screen and (min-width: 1100px) {
@@ -417,7 +439,10 @@ form > button:hover {
   .menu-items,
   #fname,
   #lname {
+    position: static;
     display: flex;
+    width: auto;
+    height: auto;
   }
 
   body {
