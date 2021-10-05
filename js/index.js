@@ -13,6 +13,7 @@ const menuHandler = () => {
 
 ham.addEventListener('click', menuHandler);
 close.addEventListener('click', menuHandler);
-listItems.array.forEach((item) => {
-  item.addEventListener('click', menuHandler);
-});
+// listItems.map((item) => item.addEventListener('click', menuHandler));
+for(let i = 0; i < listItems.length; i++) {
+  listItems[i].addEventListener('click', menuHandler);
+}
