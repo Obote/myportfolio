@@ -14,6 +14,6 @@ const menuHandler = () => {
 ham.addEventListener('click', menuHandler);
 close.addEventListener('click', menuHandler);
 // listItems.map((item) => item.addEventListener('click', menuHandler));
-for(let i = 0; i < listItems.length; i++) {
+for (let i = 0; i < listItems.length; i += 1) {
   listItems[i].addEventListener('click', menuHandler);
 }

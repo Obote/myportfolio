@@ -347,7 +347,7 @@ form > button {
 
 .divider {
   border: 1px solid #646369;
-  width: 327px;
+  width: 100%;
 }
 
 .container {
@@ -582,6 +582,7 @@ form > button:hover {
 
   .experience-container {
     /* margin: 0 142px; */
+
     /* padding: 0 142px; */
     display: flex;
     flex-direction: column;
