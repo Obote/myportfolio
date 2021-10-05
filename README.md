@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Web Accessibility
+## Mobile Menu
 
-working wing web accessibilty in Microverse bootcamp module 1, week 3 day 2.
+Implementing mobile menu in microverse bootcamp module 1 week 4.
 
 
 ![screenshot](./app.png)
@@ -30,11 +30,13 @@ Clone the project and run  it.
 - Twitter: [@Obote_denis](https://twitter.com/Obote_denis)
 - LinkedIn: [Obote Denis](https://www.linkedin.com/in/obote-denis-9859a2a3/)
 
-👤 **Nicolae Pop**
+👤 **Leonardo Albornoz**
 
-- GitHub: [@nicupop729](https://github.com/nicupop729)
-- Twitter: [@nicupop729](https://twitter.com/nicupop729)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nicolae-pop/) 
+- GitHub: [@Leboroz](https://github.com/Leboroz)
+- Twitter: [@Leboroz](https://twitter.com/Leboroz)
+- LinkedIn: [Leonardo Albornoz](https://linkedin.com/in/leonardo-albornoz-216784198) 
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
