@@ -17,9 +17,6 @@
     "url": "https://github.com/Obote/myportfolio/issues"
   },
   "homepage": "https://github.com/Obote/myportfolio#readme",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4"
-  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
