@@ -460,7 +460,9 @@ form > button:hover {
   main,
   .profile-menu,
   .footer-section {
-    width: 1440px;
+    width: 100%;
+
+    /* overflow-x: hidden; */
     background-image: none;
   }
 
@@ -480,7 +482,7 @@ form > button:hover {
   }
 
   body {
-    width: auto;
+    width: 100%;
     height: auto;
     margin: 0;
   }
@@ -501,7 +503,7 @@ form > button:hover {
   }
 
   .profile-menu .msg-icon {
-    margin-right: 156px;
+    margin-right: 32px;
   }
 
   .profile-menu > .menu-items {
@@ -511,23 +513,27 @@ form > button:hover {
   }
 
   .profile-title p {
-    padding-left: 496.5px;
-    padding-right: 496.5px;
+    margin-left: 380px;
+    margin-right: 380px;
+    margin-bottom: 40px;
   }
 
   .container {
     background: url(./images/Icons/circle2.svg);
     background-repeat: no-repeat;
     background-position: top right;
+    width: 100%;
+    align-items: center;
   }
 
   .divider {
     width: 448px;
     border: 1px solid #646369;
+    margin-bottom: 40px;
   }
 
   .container .divider {
-    width: 1156px;
+    width: 100%;
   }
 
   .skill-stack {
@@ -538,6 +544,7 @@ form > button:hover {
     width: auto;
     left: 1px;
     height: auto;
+    margin-bottom: 40px;
   }
 
   .experience-title h2 {
@@ -575,17 +582,16 @@ form > button:hover {
     display: none;
   }
 
-  .experience-container img {
-    width: 100%;
-    height: auto;
+  .img-wrapper {
+    display: flex;
+    flex-direction: row;
   }
 
   .experience-container {
-    /* margin: 0 142px; */
-
-    /* padding: 0 142px; */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding-left: 142px;
+    padding-right: 142px;
   }
 
   .sec-wrap h3 {
@@ -608,18 +614,15 @@ form > button:hover {
   }
 
   .form-container {
-    margin-right: 378px;
-    margin-left: 378px;
-    margin-top: 114px;
+    max-width: 684px;
   }
 
   .footer-section .divider {
-    width: 1440px;
+    width: 100%;
   }
 
   .bg2,
   .bg4 {
-    display: flex;
     flex-direction: row-reverse;
   }
 }
