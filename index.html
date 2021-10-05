@@ -25,23 +25,37 @@
     <header class="profile">
       <nav class="profile-menu">
         <div class="logo roboto"><a href="#">Obote</a></div>
-        <ul class="menu-items">
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul id="menu" class="menu-items">
+          <button id="close" class="hamburger hide">
+            <span class="fas fa-times"></span>
+          </button>
+          <li class="list-item"> 
+            <a href="#portfolio">Portfolio</a>
+            <i class="fas fa-chevron-right"></i>
+          </li>
+          <li class="list-item">
+            <a href="#about">About</a>
+            <i class="fas fa-chevron-right"></i> 
+          </li>
+          <li class="list-item">
+            <a href="#contact">Contact</a>
+            <i class="fas fa-chevron-right"></i> 
+          </li>
         </ul>
         <img
           class="msg-icon"
           src="./images/Icons/Union.svg"
           alt="message icon"
         />
-        <button class="hamburger">
-          <img src="./images/Icons/menu-icon.png" alt="menu icon" />
+        <button id="toggleButton" class="hamburger">
+          <span class="fas fa-bars"></span>
         </button>
+        
+
       </nav>
     </header>
     <main>
-      <section class="profile-container" id="about">
+      <section class="section profile-container" id="about">
         <div class="profile-title roboto">
           <h1>Denis Obote</h1>
           <h2>Software Developer</h2>
@@ -53,7 +67,7 @@
         </div>
       </section>
       <hr class="divider" />
-      <section class="skill-stack">
+      <section class="section skill-stack">
         <ul class="stack-one">
           <li><h3>Language</h3></li>
           <li>Javascript</li>
@@ -79,7 +93,7 @@
         </ul>
       </section>
       <hr class="divider" />
-      <section class="social">
+      <section class="section social">
         <div class="social-media">
           <ul class="social-media-icon">
             <li>
@@ -114,7 +128,7 @@
         </div>
       </section>
 
-      <section class="container" id="portfolio">
+      <section class="section container" id="portfolio">
         <div class="experience-title" id="profile">
           <h2>
             MY RECENT <br />
@@ -142,7 +156,7 @@
           </div>
         </section>
         <section class="experience-container bg2">
-          <img src="./images/Icons/bg.jpg" alt="project image" />
+            <img src="./images/Icons/bg.jpg" alt="project image" />
           <div class="sec-wrap">
             <h3>Multi-Post Stories</h3>
             <p>
@@ -161,7 +175,7 @@
           </div>
         </section>
         <section class="experience-container bg3">
-          <img src="./images/Icons/bg.jpg" alt="project image" />
+            <img src="./images/Icons/bg.jpg" alt="project image" />
           <div class="sec-wrap">
             <h3>Multi-Post Stories</h3>
             <p>
@@ -199,7 +213,7 @@
           </div>
         </section>
       </section>
-      <section class="form-container" id="contact">
+      <section class="section form-container" id="contact">
         <h3 class="mobH">CONTACT US</h3>
         <h3 class="deskH">Let`s chat!</h3>
         <p>
@@ -268,5 +282,7 @@
         <a href="#" class="footer-email">obotedenis256@gmail.com</a>
       </div>
     </footer>
+    <script src="https://kit.fontawesome.com/2d686771bc.js" crossorigin="anonymous"></script> 
+    <script type="text/javascript" src="./js/index.js"></script>
   </body>
 </html>
