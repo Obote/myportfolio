@@ -22,10 +22,14 @@
   position: fixed;
   top: 0;
   background-color: var(--primary-color);
-  width: 100%;
+  width: calc(100% - 40px);
   height: 100%;
   left: calc(-100% - 40px);
   transition: left 0.4s;
+  font-size: 24px;
+  padding-top: 100px;
+  padding-left: 40px;
+  font-weight: 500;
 }
 
 #close {
@@ -226,6 +230,7 @@ li {
   left: 0;
   top: 0;
   border-radius: 0;
+
   /* padding-top: 48px;
   padding-left: 24px;
   padding-right: 24px; */
@@ -447,6 +452,19 @@ form > button:hover {
   display: none;
 }
 
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 12px 0;
+}
+
+.list-item a {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
 @media screen and (min-width: 1100px) {
   body,
   header,
@@ -455,7 +473,6 @@ form > button:hover {
   .profile-menu,
   .footer-section {
     width: 100%;
-
     overflow-x: hidden;
     background-image: none;
   }
