@@ -49,3 +49,53 @@ const projects = [
     tech: ['html', 'Ruby on rail', 'css', 'Github'],
   },
 ];
+
+const btn = document.querySelectorAll('.project-button');
+const divProject = document.createElement('div');
+
+function addEventListenerList() {
+  for (let i = 0; i < btn.length; i += 1) {
+    btn[i].addEventListener('click', (event) => {
+      const projectId = event.target.id;
+      divProject.id = 'modal';
+      divProject.className = 'modal flex';
+      document.querySelector('.overal').style.display = 'flex';
+
+      let techHTML = '';
+      for (let l = 0; l < projects[i].tech.length; l += 1) {
+        techHTML += `<li class="modal-language">${projects[i].tech[l]}</li>`;
+      }
+
+      divProject.innerHTML = '<section class="modal-header flex">'
+        + '<div class="top-side-modal flex">'
+        + `<p>${projects[projectId].title}</p>`
+        + '<a class="close-popup">&times;</a>'
+        + '</div>'
+        + '</section>'
+        + '<div class="popup-img">'
+        + `<img width="330px" src="${projects[projectId].image}" alt="placeholder>`
+        + '</div>'
+        + '<section class="modal-section">'
+        + '<div class="modal-description">'
+        + `<p id = "P-description"class="modal-P">${projects[projectId].description}</p>`
+        + '</div>'
+        + '<div class="modal-div-language flex">'
+        + `<ul id="project-list">${techHTML}</ul>`
+        + '</div>'
+        + '<div class="modal-div-sources flex">'
+        + '<button class="modal-buttons">See Live<a href="#"></a></button>'
+        + '<button class="modal-buttons">See Source<a href="#"></a></button>'
+        + '</div>'
+        + '</section>';
+
+      document.getElementById('overal').appendChild(divProject);
+
+      const erase = document.querySelector('.close-popup');
+      erase.addEventListener('click', () => {
+        document.querySelector('.overal').style.display = 'none';
+        divProject.remove();
+      });
+    });
+  }
+}
+addEventListenerList();
