@@ -465,7 +465,6 @@ form > button:hover {
   line-height: 32px;
 }
 
-
 .flex {
   display: flex;
 }
@@ -531,13 +530,13 @@ form > button:hover {
   margin: 24px 0;
 }
 
- modal-div-language > ul {
+.modal-div-language > ul {
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   width: 95%;
-} 
+}
 
 /* .modal-div-language .modal-language {
   border-left: 1px rgba(255, 255, 255, 0.16) solid;
@@ -571,8 +570,6 @@ form > button:hover {
   display: flex;
   flex-direction: row;
 }
-
-
 
 @media screen and (min-width: 1100px) {
   body,
