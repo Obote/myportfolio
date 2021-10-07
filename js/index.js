@@ -93,7 +93,7 @@ function addEventListenerList() {
       const li = target.parentNode.children[2].children;
       const title = target.parentNode.children[0].innerHTML;
       for (let l = 0; l < li.length; l += 1) {
-        techHTML += `<li class="modal-language">${li[l].innerHTML}</li>` + '\n';
+        techHTML += `<li class="modal-language">${li[l].innerHTML}</li>'  /'\n';
       }
 
       divProject.innerHTML = `<section class="modal-header flex">
