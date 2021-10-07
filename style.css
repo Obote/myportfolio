@@ -627,6 +627,11 @@ form > button:hover {
     display: flex;
     justify-content: space-between;
     margin-right: -680px;
+    padding: 0;
+  }
+
+  .fa-chevron-right {
+    display: none;
   }
 
   .profile-title p {
