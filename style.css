@@ -465,112 +465,6 @@ form > button:hover {
   line-height: 32px;
 }
 
-.flex {
-  display: flex;
-}
-
-.overal {
-  background: #2f3577;
-  display: none;
-  justify-content: center;
-  align-content: center;
-  position: fixed;
-  opacity: 0.95;
-  width: 1156px;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  z-index: 2;
-  cursor: pointer;
-}
-
-.modal {
-  background: rgba(15, 1, 65, 0.16);
-  border: 1px solid #fff;
-  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  width: 85%;
-  height: 90%;
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
-  padding: 20px;
-  position: absolute;
-  border-radius: 5px;
-  top: 1%;
-}
-
-.popup-img {
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.modal-header {
-  width: 99.8%;
-  height: 15%;
-}
-
-.top-side-modal {
-  align-self: flex-start;
-  flex-direction: row;
-  width: 80%;
-  justify-content: space-between;
-}
-
-.top-side-modal a {
-  margin-right: -80px;
-  cursor: alias;
-}
-
-.modal-p {
-  font-size: 16px;
-  line-height: 24px;
-  margin: 24px 0;
-}
-
-.modal-div-language > ul {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  width: 95%;
-}
-
-/* .modal-div-language .modal-language {
-  border-left: 1px rgba(255, 255, 255, 0.16) solid;
-  border-right: 1px rgba(255, 255, 255, 0.16) solid;
-  margin: 25px 0;
-  width: 80px;
-  margin-right: 3%;
-  text-align: center;
-} */
-
-.modal-div-sources {
-  width: 95%;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.modal-buttons {
-  background: #4037be;
-  margin: 25px 10px;
-  border-radius: 5%;
-  align-self: center;
-}
-
-.li-menu {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-}
-
-#project-list {
-  display: flex;
-  flex-direction: row;
-}
-
 @media screen and (min-width: 1100px) {
   body,
   header,
@@ -581,14 +475,6 @@ form > button:hover {
     width: 100%;
     overflow-x: hidden;
     background-image: none;
-  }
-
-  .section {
-    margin-top: 186px;
-  }
-
-  .profile-menu {
-    position: fixed;
   }
 
   .hamburger,
@@ -635,11 +521,6 @@ form > button:hover {
     display: flex;
     justify-content: space-between;
     margin-right: -680px;
-    padding: 0;
-  }
-
-  .fa-chevron-right {
-    display: none;
   }
 
   .profile-title p {
