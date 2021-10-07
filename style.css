@@ -470,41 +470,49 @@ form > button:hover {
 }
 
 .overal {
-  background: #2f3577;
+  background: rgba(163, 174, 162, 0.16);
   display: none;
-  justify-content: center;
-  align-content: center;
   position: fixed;
-  opacity: 0.95;
-  width: 1156px;
-  height: 100%;
+  z-index: 9999;
+  left: 0;
   top: 0;
-  bottom: 0;
-  z-index: 2;
-  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal {
-  background: rgba(15, 1, 65, 0.16);
+  background-color: rgba(15, 1, 65, 0.95);
   border: 1px solid #fff;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  width: 85%;
-  height: 90%;
+  height: auto;
   flex-direction: column;
   align-content: center;
   text-align: center;
-  padding: 20px;
-  position: absolute;
+  padding: 50px;
   border-radius: 5px;
-  top: 1%;
+  margin: 25px 0;
+  width: 791px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+.modal-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .popup-img {
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
+}
+.popup-img img {
+  width: 70%;
+  height: auto;
 }
 
 .modal-header {
@@ -515,19 +523,20 @@ form > button:hover {
 .top-side-modal {
   align-self: flex-start;
   flex-direction: row;
-  width: 80%;
+  width: 90%;
   justify-content: space-between;
 }
 
 .top-side-modal a {
+  font-size: 40px;
   margin-right: -80px;
   cursor: alias;
 }
 
-.modal-p {
-  font-size: 16px;
-  line-height: 24px;
-  margin: 24px 0;
+.modal-h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 32px;
 }
 
 .modal-div-language > ul {
@@ -535,6 +544,7 @@ form > button:hover {
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  gap: 30px;
   width: 95%;
 }
 
@@ -551,13 +561,15 @@ form > button:hover {
   width: 95%;
   justify-content: center;
   flex-direction: row;
+  gap: 70px;
 }
 
 .modal-buttons {
   background: #4037be;
-  margin: 25px 10px;
   border-radius: 5%;
   align-self: center;
+  padding: 12px 24px 12px 12px;
+  color: #fff;
 }
 
 .li-menu {
