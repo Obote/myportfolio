@@ -2,7 +2,7 @@
 
 ## Mobile Menu
 
-Implementing mobile menu in microverse bootcamp module 1 week 4.
+Implementing pop up modal in Microserve bootcamp module 1 week 4
 
 
 ![screenshot](./app.png)

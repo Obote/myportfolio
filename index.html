@@ -20,16 +20,17 @@
 
       gtag("config", "G-560VVZYBCL");
     </script>
+    <script src="https://kit.fontawesome.com/2d686771bc.js" crossorigin="anonymous"></script> 
   </head>
   <body>
     <header class="profile">
       <nav class="profile-menu">
         <div class="logo roboto"><a href="#">Obote</a></div>
+        <button id="close" class="hamburger hide">
+          <span class="fas fa-times"></span>
+        </button> 
         <ul id="menu" class="menu-items">
-          <button id="close" class="hamburger hide">
-            <span class="fas fa-times"></span>
-          </button>
-          <li class="list-item"> 
+             <li class="list-item"> 
             <a href="#portfolio">Portfolio</a>
             <i class="fas fa-chevron-right"></i>
           </li>
@@ -93,7 +94,7 @@
         </ul>
       </section>
       <hr class="divider" />
-      <section class="section social">
+      <section class="social">
         <div class="social-media">
           <ul class="social-media-icon">
             <li>
@@ -152,7 +153,7 @@
               <li class="border-right padding-right">bootstrap</li>
               <li class="padding-right">Ruby</li>
             </ul>
-            <button type="button" class="project-button">See Project</button>
+            <button type="button" class="project-button" id="1">See Project</button>
           </div>
         </section>
         <section class="experience-container bg2">
@@ -171,7 +172,7 @@
               <li class="border-right padding-right">bootstrap</li>
               <li class="padding-right">Ruby</li>
             </ul>
-            <button type="button" class="project-button">See Project</button>
+            <button type="button" class="project-button" id="2">See Project</button>
           </div>
         </section>
         <section class="experience-container bg3">
@@ -190,7 +191,7 @@
               <li class="border-right padding-right">bootstrap</li>
               <li class="padding-right">Ruby</li>
             </ul>
-            <button type="button" class="project-button">See Project</button>
+            <button type="button" class="project-button" id="3">See Project</button>
           </div>
         </section>
         <section class="experience-container bg4">
@@ -209,10 +210,13 @@
               <li class="border-right padding-right">bootstrap</li>
               <li class="padding-right">Ruby</li>
             </ul>
-            <button type="button" class="project-button">See Project</button>
+            <button type="button" class="project-button" id="4">See Project</button>
           </div>
         </section>
       </section>
+      <div id="overal" class="overal flex active">
+        <!-- popup modal  -->
+      </div>
       <section class="section form-container" id="contact">
         <h3 class="mobH">CONTACT US</h3>
         <h3 class="deskH">Let`s chat!</h3>
@@ -282,7 +286,6 @@
         <a href="#" class="footer-email">obotedenis256@gmail.com</a>
       </div>
     </footer>
-    <script src="https://kit.fontawesome.com/2d686771bc.js" crossorigin="anonymous"></script> 
     <script type="text/javascript" src="./js/index.js"></script>
   </body>
 </html>
