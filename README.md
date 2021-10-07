@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## My portfolio Deplotment
+## Mobile Menu
 
-This project is application deloyment. It will be continous project that will show what I am capable of doing a developer.
-
-Project day 1 of week 3 in microverse bootcamp
+Implementing pop up modal in Microserve bootcamp module 1 week 4
 
 
 ![screenshot](./app.png)
@@ -12,7 +10,6 @@ Project day 1 of week 3 in microverse bootcamp
 
 ## Built With
 
-\
 - hmtl
 - css
 ## Live Demo
@@ -33,6 +30,12 @@ Clone the project and run  it.
 - Twitter: [@Obote_denis](https://twitter.com/Obote_denis)
 - LinkedIn: [Obote Denis](https://www.linkedin.com/in/obote-denis-9859a2a3/)
 
+👤 **Leonardo Albornoz**
+
+- GitHub: [@Leboroz](https://github.com/Leboroz)
+- Twitter: [@Leboroz](https://twitter.com/Leboroz)
+- LinkedIn: [Leonardo Albornoz](https://linkedin.com/in/leonardo-albornoz-216784198) 
+
 
 ## 🤝 Contributing
 
@@ -46,9 +49,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- Microverse
+Nicolae for the rendered during the learning process.
 
 ## 📝 License
 

@@ -1,173 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Obote</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Obote's portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-560VVZYBCL");
+    </script>
+    <script src="https://kit.fontawesome.com/2d686771bc.js" crossorigin="anonymous"></script> 
+  </head>
+  <body>
     <header class="profile">
-        <nav class="profile-menu">
-            <div class="logo roboto"><a href="#">Obote</a></div>
-            <ul class="menu-items">
-                <li>Portoflio</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-            <img class="msg-icon" src="./images/Icons/Union.svg" alt="message icon">
-            <button class="hamburger"><img src="./images/Icons/menu-icon.png" alt=""></button>
-        </nav>
+      <nav class="profile-menu">
+        <div class="logo roboto"><a href="#">Obote</a></div>
+        <button id="close" class="hamburger hide">
+          <span class="fas fa-times"></span>
+        </button> 
+        <ul id="menu" class="menu-items">
+             <li class="list-item"> 
+            <a href="#portfolio">Portfolio</a>
+            <i class="fas fa-chevron-right"></i>
+          </li>
+          <li class="list-item">
+            <a href="#about">About</a>
+            <i class="fas fa-chevron-right"></i> 
+          </li>
+          <li class="list-item">
+            <a href="#contact">Contact</a>
+            <i class="fas fa-chevron-right"></i> 
+          </li>
+        </ul>
+        <img
+          class="msg-icon"
+          src="./images/Icons/Union.svg"
+          alt="message icon"
+        />
+        <button id="toggleButton" class="hamburger">
+          <span class="fas fa-bars"></span>
+        </button>
+        
+
+      </nav>
     </header>
     <main>
-        <section class="profile-container">
-            <div class="profile-title roboto">
-                <h1>Denis Obote</h1>
-                <h2>Software Developer</h2>
-                <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need
-                    coded, don’t hestiate to contact me.</p>
-            </div>
-        </section>
-        <hr class="divider">
-        <section class="skill-stack">
-            <ul class="stack-one">
-                <li><h3>Language</h3></li>
-                <li>Javascript</li>
-                <li>Ruby</li>
-                <li>Html</li>
-                <li>Css</li>
-            </ul>
-            <ul class="stack-two">
-                <li><h3>Frameworks</h3></li>
-                <li>Bootstrap</li>
-                <li>Ruby on Rails</li>
-                <li>RSPec</li>
-                <li>CapyBara</li>
-                <li>Selenium</li>            
-            </ul>
-            <ul class="stack-three">
-                <li><h3>Skill</h3></li>
-                <li>Codekit</li>
-                <li>Github</li>
-                <li>Codepen</li>
-                <li>Gitlab</li>
-                <li>Terminal</li>
-            </ul>
-        </section> 
-        <hr class="divider">
-        <section class="social">
-            <div class="social-media">
-            <ul class="social-media-icon">
-                <li><a href="#"><img src="./images/Icons/github.png" alt="Github"></a></li>
-                <li><a href="#"><img src="./images/Icons/linkedin.png" alt="Linkedin"></a></li>
-                <li><a href="#"><img src="./images/Icons/Vector.svg" alt="Angellist"></a></li>
-                <li><a href="#"><img src="./images/Icons/twitter.png" alt="Twitter"></a></li>
-                <li><a href="#"><img src="./images/Icons/medium.png" alt="Medium"></a></li>
-            </ul>
-                <a class="arrow" href="#"><img src="./images/Icons/element-right.png" alt="arrow down"></a>   
-            </div>                      
-        </section>    
+      <section class="section profile-container" id="about">
+        <div class="profile-title roboto">
+          <h1>Denis Obote</h1>
+          <h2>Software Developer</h2>
+          <p>
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+        </div>
+      </section>
+      <hr class="divider" />
+      <section class="section skill-stack">
+        <ul class="stack-one">
+          <li><h3>Language</h3></li>
+          <li>Javascript</li>
+          <li>Ruby</li>
+          <li>Html</li>
+          <li>Css</li>
+        </ul>
+        <ul class="stack-two">
+          <li><h3>Frameworks</h3></li>
+          <li>Bootstrap</li>
+          <li>Ruby on Rails</li>
+          <li>RSPec</li>
+          <li>CapyBara</li>
+          <li>Selenium</li>
+        </ul>
+        <ul class="stack-three">
+          <li><h3>Skill</h3></li>
+          <li>Codekit</li>
+          <li>Github</li>
+          <li>Codepen</li>
+          <li>Gitlab</li>
+          <li>Terminal</li>
+        </ul>
+      </section>
+      <hr class="divider" />
+      <section class="social">
+        <div class="social-media">
+          <ul class="social-media-icon">
+            <li>
+              <a href="#"
+                ><img src="./images/Icons/github.png" alt="Github"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/Icons/linkedin.png" alt="Linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/Icons/Vector.svg" alt="Angellist"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/Icons/twitter.png" alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/Icons/medium.png" alt="Medium"
+              /></a>
+            </li>
+          </ul>
+          <a class="arrow" href="#"
+            ><img src="./images/Icons/element-right.png" alt="arrow down"
+          /></a>
+        </div>
+      </section>
 
-    <section class="container">
+      <section class="section container" id="portfolio">
         <div class="experience-title" id="profile">
-            <h2>MY RECENT <br> WORK</h2>
-        </div>        
-        <hr class="divider">    
-        <section class="experience-container bg1">        
-            <img src="./images/Icons/bg.jpg" alt="project image">
-            <div class="sec-wrap">
-                <h3>Multi-Post Stories</h3>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul class="stack-container">
-                <li class="border-right padding-right">css</li>
-                <li class="border-right padding-right">html</li>          
-                <li class="border-right padding-right">bootstrap</li>         
-                <li class="padding-right">Ruby</li>
-            </ul>
-            <button type="button" class="project-button">See Project</button>
-
-            </div>            
-        
-        </section> 
-        <section class="experience-container bg2">        
-            <img src="./images/Icons/bg.jpg" alt="project image">
-            <div class="sec-wrap">
-                <h3>Multi-Post Stories</h3>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul class="stack-container">
-                <li class="border-right padding-right">css</li>
-                <li class="border-right padding-right">html</li>          
-                <li class="border-right padding-right">bootstrap</li>         
-                <li class="padding-right">Ruby</li>
-            </ul>
-            <button type="button" class="project-button">See Project</button>
-
-            </div>            
-        
-        </section> 
-        <section class="experience-container bg3">        
-            <img src="./images/Icons/bg.jpg" alt="project image">
-            <div class="sec-wrap">
-                <h3>Multi-Post Stories</h3>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul class="stack-container">
-                <li class="border-right padding-right">css</li>
-                <li class="border-right padding-right">html</li>          
-                <li class="border-right padding-right">bootstrap</li>         
-                <li class="padding-right">Ruby</li>
-            </ul>
-            <button type="button" class="project-button">See Project</button>
-
-            </div>            
-        
-        </section> 
-        <section class="experience-container bg4">        
-            <img src="./images/Icons/bg.jpg" alt="project image">
-            <div class="sec-wrap">
-                <h3>Multi-Post Stories</h3>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul class="stack-container">
-                <li class="border-right padding-right">css</li>
-                <li class="border-right padding-right">html</li>          
-                <li class="border-right padding-right">bootstrap</li>         
-                <li class="padding-right">Ruby</li>
-            </ul>
-            <button type="button" class="project-button">See Project</button>
-
-            </div>            
-        
-        </section> 
-    </section>
-    <section class="form-container">
+          <h2>
+            MY RECENT <br />
+            WORK
+          </h2>
+        </div>
+        <hr class="divider" />
+      </section>
+      
+      <section class="section form-container" id="contact">
         <h3 class="mobH">CONTACT US</h3>
         <h3 class="deskH">Let`s chat!</h3>
-        <P>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </P>
+        <p>
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
         <form action="https://formspree.io/f/xdoylybq" method="POST">
-            <label for="name"></label>
-            <input type="text" id="name" name="Full name" placeholder="Full Name" required>
-            <input type="email" id="mail" name="_replyto" placeholder="jeremy@gmail.com"  required>
-            <label for="msg"></label>
-            <textarea name="message" id="msg" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea>
-            <button class="project-button" type="submit">Submit</button>
+          <label for="name"></label>
+          <input
+            type="text"
+            id="name"
+            name="Full name"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            type="email"
+            id="mail"
+            name="_replyto"
+            placeholder="jeremy@gmail.com"
+            required
+          />
+          <label for="msg"></label>
+          <textarea
+            name="message"
+            id="msg"
+            cols="30"
+            rows="10"
+            placeholder="Enter text here"
+            maxlength="500"
+            required
+          ></textarea>
+          <button class="project-button" type="submit">Submit</button>
         </form>
-    </section>
+      </section>
     </main>
     <footer class="footer-section">
-        <hr class="divider"> 
-        <div class="supporting-item-container"> 
+      <hr class="divider" />
+      <div class="supporting-item-container">
         <ul class="social-media-icon">
-            <li><a href="#"><img src="./images/Icons/github.png" alt="Github"></a></li>
-                <li><a href="#"><img src="./images/Icons/linkedin.png" alt="Linkedin"></a></li>
-                <li><a href="#"><img src="./images/Icons/Vector.svg" alt="Angellist"></a></li>
-                <li><a href="#"><img src="./images/Icons/twitter.png" alt="Twitter"></a></li>
-                <li><a href="#"><img src="./images/Icons/medium.png" alt="Medium"></a></li>
+          <li>
+            <a href="#"><img src="./images/Icons/github.png" alt="Github" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/Icons/linkedin.png" alt="Linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/Icons/Vector.svg" alt="Angellist"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/Icons/twitter.png" alt="Twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/Icons/medium.png" alt="Medium" /></a>
+          </li>
         </ul>
-        </div>
-        <div class="bottom">
-            <a href="#" class="footer-email">obotedenis256@gmail.com</a>
-            
-        </div>  
+      </div>
+      <div class="bottom">
+        <a href="#" class="footer-email">obotedenis256@gmail.com</a>
+      </div>
     </footer>
-</body>
+    <div id="overal" class="overal">
+      <!-- popup modal  -->
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+  </body>
 </html>
