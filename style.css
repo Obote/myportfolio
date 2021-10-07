@@ -483,7 +483,7 @@ form > button:hover {
   align-items: center;
 }
 
-/* .modal {
+ .modal {
   background-color: rgba(15, 1, 65, 0.95);
   border: 1px solid #fff;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -498,7 +498,7 @@ form > button:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: animatetop;
   animation-duration: 0.4s;
-} */
+}  
 
 .modal-section {
   margin-top: 20px;
