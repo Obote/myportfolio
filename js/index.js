@@ -23,21 +23,21 @@ for (let i = 0; i < listItems.length; i += 1) {
 const projects = [
   {
     title: 'My Project1',
-    image: '../images/Icons/bg.jpg',
+    image: './images/Icons/bg.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     tech: ['html', 'Ruby on rail', 'css', 'Github'],
   },
   {
     title: 'My Project2',
-    image: '../images/Icons/bg.jpg',
+    image: './images/Icons/bg.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     tech: ['html', 'Ruby on rail', 'css', 'Github'],
   },
   {
     title: 'My Project3',
-    image: '../images/Icons/bg.jpg',
+    image: './images/Icons/bg.jpg',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
     tech: ['html', 'Ruby on rail', 'css', 'Github'],
@@ -93,7 +93,7 @@ function addEventListenerList() {
       const li = target.parentNode.children[2].children;
       const title = target.parentNode.children[0].innerHTML;
       for (let l = 0; l < li.length; l += 1) {
-        techHTML += `<li class="modal-language">${li[l].innerHTML}</li>'  /'\n';
+        techHTML += `<li class="modal-language">${li[l].innerHTML}</li>` + '\n';
       }
 
       divProject.innerHTML = `<section class="modal-header flex">
