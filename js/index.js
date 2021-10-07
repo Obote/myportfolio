@@ -3,7 +3,7 @@ const close = document.getElementById('close');
 const title = document.getElementById('title');
 const men = document.getElementById('menu');
 const listItems = document.getElementsByClassName('list-item');
-const portfolio = document.getElementById('portfolio')
+const portfolio = document.getElementById('portfolio');
 
 const menuHandler = () => {
   men.classList.toggle('menu-on');
@@ -51,11 +51,10 @@ const projects = [
   },
 ];
 
-const projectCards = projects.map(({title, image, tech}, i) => {
-  let cardSection = document.createElement('section');
-  cardSection.classList.add('experience-container',`bg${i + 1}`);
-  cardSection.innerHTML =
-          `<img src="${image}" alt="project image" />
+const projectCards = projects.map(({ title, image, tech }, i) => {
+  const cardSection = document.createElement('section');
+  cardSection.classList.add('experience-container', `bg${i + 1}`);
+  cardSection.innerHTML = `<img src="${image}" alt="project image" />
           <div class="sec-wrap">
             <h3>${title}</h3>
             <p>
@@ -72,33 +71,32 @@ const projectCards = projects.map(({title, image, tech}, i) => {
             </ul>
             <button type="button" class="project-button" id="1">See Project</button>
           </div>`;
-          return cardSection;
+  return cardSection;
 });
 const divProject = document.createElement('div');
 
 function addEventListenerList() {
-  projectCards.forEach(card => {
-    console.log(typeof card)
+  projectCards.forEach((card) => {
+    console.log(typeof card);
     portfolio.appendChild(card);
   });
 
   const btn = document.querySelectorAll('.project-button');
   for (let i = 0; i < btn.length; i += 1) {
-    btn[i].onclick = ({target}) => {
+    btn[i].onclick = ({ target }) => {
       const projectId = target.id;
       divProject.id = 'modal';
       divProject.classList.add('modal', 'flex');
       document.querySelector('.overal').style.display = 'flex';
 
       let techHTML = '';
-      let li = target.parentNode.children[2].children;
-      let title = target.parentNode.children[0].innerHTML;
+      const li = target.parentNode.children[2].children;
+      const title = target.parentNode.children[0].innerHTML;
       for (let l = 0; l < li.length; l += 1) {
         techHTML += `<li class="modal-language">${li[l].innerHTML}</li>` + '\n';
       }
 
-      divProject.innerHTML =
-       `<section class="modal-header flex">
+      divProject.innerHTML = `<section class="modal-header flex">
           <div class="top-side-modal flex">
             <h1>${title}</h1>
             <a class="close-popup">&times;</a>
@@ -121,7 +119,7 @@ function addEventListenerList() {
             <button class="modal-buttons">See Source<a href="#"></a></button>
           </div>
         </section> 
-        `
+        `;
 
       document.getElementById('overal').appendChild(divProject);
 
