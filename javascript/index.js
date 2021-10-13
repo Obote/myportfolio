@@ -12,4 +12,4 @@ formVal.addEventListener('submit', (event) => {
     }else if (!document.getElementById('lowerCase').className === 'mailError formShow'){
         document.getElementById('lowerCase').classList.toggle('formShow');
     }
-})
+});
