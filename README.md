@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## My portfolio Deplotment
+## Web Accessibility
 
-This project is application deloyment. It will be continous project that will show what I am capable of doing a developer.
-
-Project day 1 of week 3 in microverse bootcamp
+working wing web accessibilty in Microverse bootcamp module 1, week 3 day 2.
 
 
 ![screenshot](./app.png)
@@ -12,7 +10,6 @@ Project day 1 of week 3 in microverse bootcamp
 
 ## Built With
 
-\
 - hmtl
 - css
 ## Live Demo
@@ -33,7 +30,11 @@ Clone the project and run  it.
 - Twitter: [@Obote_denis](https://twitter.com/Obote_denis)
 - LinkedIn: [Obote Denis](https://www.linkedin.com/in/obote-denis-9859a2a3/)
 
+👤 **Nicolae Pop**
 
+- GitHub: [@nicupop729](https://github.com/nicupop729)
+- Twitter: [@nicupop729](https://twitter.com/nicupop729)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nicolae-pop/) 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -46,9 +47,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- Microverse
+Nicolae for the rendered during the learning process.
 
 ## 📝 License
 
