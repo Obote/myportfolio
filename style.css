@@ -719,9 +719,3 @@ form > button:hover {
     max-width: 100%;
   }
 }
-
-@media screen and (max-width: 340px) {
-  :root {
-    --wrapper-width: 290px;
-  }
-}
