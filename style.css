@@ -5,6 +5,22 @@
   font-family: Roboto, sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+:root {
+  --wrapper-width: 90%;
+  --primary-color: #191765;
+  --secondary-color: #edecff;
+  --containers-side-padding: 30px;
+}
+
 .menu-items,
 .msg-icon,
 .deskH,
@@ -407,12 +423,108 @@ form > button:hover {
   height: 70px;
 }
 
-.formShow {
-  display: none;
+.portfolio {
+  background-image: url('../images/headline_section_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
 }
 
-.mailError {
-  color: red;
+.header-container {
+  padding: 20px var(--containers-side-padding);
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-body > * {
+  width: calc(var(--wrapper-width) - 50px);
+}
+
+.project-picture {
+  display: flex;
+  align-content: flex-start;
+  height: 236px;
+  width: 327px;
+  justify-content: center;
+  margin-left: 24px;
+  margin-top: 40px;
+}
+
+.btn-primary {
+  width: 100px;
+  height: 50px;
+  padding: 10px 10px;
+  background: #9390ff;
+  color: black;
+  align-self: flex-start;
+  transition: transform 300ms ease-in;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  transform: scale(1.05);
+}
+
+.btn-primary:active {
+  background: #5e42d7;
+}
+
+.btn-primary[disabled] {
+  background-color: #2a2b33;
+}
+
+.btn-primary[disabled]:hover {
+  box-shadow: none;
+}
+
+.project .Project-title {
+  justify-self: center;
+  margin: 15px 0;
+  padding: 0;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.project p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #dcdce8;
+  text-align: center;
+}
+
+.technologies {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 20px 0;
+  list-style: none;
+}
+
+.project .technologies > * {
+  flex-grow: 1;
+  text-align: center;
+  border-right: 1px #555 solid;
+}
+
+.technologies li:last-child {
+  border-right: hidden;
+}
+
+.See-Project {
+  width: calc(var(--wrapper-width) - 50px);
 }
 
 @media screen and (min-width: 1100px) {
@@ -585,11 +697,27 @@ form > button:hover {
     flex-direction: row-reverse;
   }
 
-  .formShow {
-    display: none;
+  .header-container {
+    position: sticky;
+    top: 0;
+    background-color: #191765;
+    z-index: 1;
+    padding: 20px 10%;
   }
 
-  .mailError {
-    color: red;
+  .project {
+    display: flex;
+  }
+
+  .project-picture {
+    width: 684px;
+    height: 448px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  :root {
+    --wrapper-width: 290px;
   }
 }
