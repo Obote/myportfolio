@@ -534,7 +534,7 @@ form > button:hover {
   main,
   .profile-menu,
   .footer-section {
-    width: 1440px;
+    width: 100%;
     background-image: none;
   }
 
@@ -713,6 +713,10 @@ form > button:hover {
     width: 684px;
     height: 448px;
     margin-left: 50px;
+  }
+
+  #projectWindow {
+    max-width: 100%;
   }
 }
 

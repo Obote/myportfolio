@@ -44,6 +44,7 @@ const projects = [
 const workContainer = document.getElementById('portfolio');
 workContainer.style.gridTemplateRows = `80px repeat(${projects.length},fr)`;
 
+// eslint-disable-next-line no-unused-vars
 function hideProject(prevProject) {
   document.getElementById('projectWindow').remove();
   prevProject.querySelector('.project-picture').style.filter = 'blur(0)';
@@ -54,6 +55,7 @@ function hideProject(prevProject) {
   }
 }
 
+// eslint-disable-next-line no-unused-vars
 function displayProject(projectIndex) {
   const prevWindow = document.getElementById('projectWindow');
   if (prevWindow) {
@@ -67,6 +69,8 @@ function displayProject(projectIndex) {
     prevWindow.remove();
   }
 
+  // eslint-disable-next-line vars-on-top
+  // eslint-disable-next-line prefer-const
   const screen = window.matchMedia('(min-width: 1024px)');
   const projectWindowWrapper = document.createElement('main');
   const projectWindow = document.createElement('section');
@@ -116,14 +120,14 @@ function displayProject(projectIndex) {
   if (currentProject.nextSibling) {
     currentProject.nextSibling.querySelector('.project-picture').style.filter = 'blur(12px)';
   }
-  projectWindowHeader.innerHTML = `<h1>${projects[projectIndex].name}</h1><img src="images/Icon/Toolbar.png" alt="cancel button" onmouseover="" style="cursor: pointer;">`;
+  projectWindowHeader.innerHTML = `<h1>${projects[projectIndex].name}</h1><img src="images/Icons/Toolbar.png" alt="cancel button" onmouseover="" style="cursor: pointer;">`;
   imageContainer.src = `${projects[projectIndex].featuredImageSource}`;
   imageContainer.alt = `${projects[projectIndex].featuredImageAlt}`;
   projectDescription.textContent = `${projects[projectIndex].description}`;
   projectTechnology.innerHTML = `${projectTechnologies.innerHTML}`;
   const projectTechnologyItems = Array.from(projectTechnology.children);
   projectBtnGoLive.innerHTML = 'See Live <img src="images/Icons/see-live.png" alt="external link icon">';
-  projectBtnSeeSrc.innerHTML = 'See Source <img src="images/Icons/GitHub-icon.png" alt="external link icon">';
+  projectBtnSeeSrc.innerHTML = 'See Source <img src="images/Icons/github.png" alt="external link icon">';
   projectWindowWrapper.id = 'projectWindow';
   projectWindowHeader
     .querySelector('img')
